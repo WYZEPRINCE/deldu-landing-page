@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Merriweather", Arial, sans-serif, serif;
+    font-size: 1.8rem;
+}
+
+.navbar1{
+    margin: 0 80px 0 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink1{
+    display: inline-block;   
+}
+
+.navlink1 a{
+    text-decoration: none;
+    color: rgb(2, 65, 190);
+    padding: 0 10px;
+}
+
+.navlink1 a:hover{
+    background-color: #252525;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.navbar2{
+    background-color: rgb(1, 175, 233);
+    padding: 20px 40px 20px 90px;
+    position: sticky;
+    top: 0;
+}
+
+.navlink2{
+    display: flex;
+    list-style-type: none;  
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.navlink2 a{
+    color: white;
+    text-decoration: none;   
+}
+
+.navlink2 li{
+    padding: 10px;
+}
+
+.navlink2 a:hover{
+    background-color: #252525;
+    padding: 10px 10px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    color: white;
+    background-color:  rgb(1, 175, 233);
+    border: 1px solid #a0abb0;
+    border-radius: 5px;
+    top: 30px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: 300px;
+    /* margin-left: -10px; */
+}
+
+.dropdown a:hover{
+    background-color: white;
+    color: #252525;
+
+}
+
+.navlink2 li:hover .dropdown{
+    display: block; 
+}
+
+
+.hero img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.hero h2{
+    color: white;
+    position: absolute;
+    top: 600px;
+    margin-left: 200px;
+    background-color: rgba(50, 49, 49, 0.7);
+    padding: 20px 200px;    
+}
+
+
+.section1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    margin: 40px;
+    line-height: 1.9;
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.welcome-container{
+    box-shadow: 0 0 10px #d9d9d9;
+    padding: 50px 30px;
+}
+
+.vc-name{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.appointment{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.welcome-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.momentum-container{
+    box-shadow: 5px 0px 10px #d9d9d9;
+    padding: 50px 30px;
+}
+
+.momentum-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.statistic-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+}
+
+.faculty, .programmes, .students, .departments{
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.statistic-cont p:first-of-type{
+    color: blue; 
+}
+
+.times{
+    font-size: 2.3rem;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.scival{
+    font-size: 2.3rem;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 57px;
+}
+.ad{
+    font-size: 2.3rem;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+
+
+.humancp{
+    box-shadow: 0 0 10px #d9d9d9;
+    padding: 50px 30px;
+    height: 700px;
+    overflow-x: hidden;
+
+}
+.humancp p{
+    text-align: center;
+    align-self: center;
+    padding: 0 50px;
+}
+
+.humancp h1{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+.ohaju{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.Akpowowo{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.charles{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.sheriff{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.tonikari{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.ikomi{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.omoniye{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+
+
+.ohaju img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+.Akpowowo img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.charles img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.sheriff img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.tonikari img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.ikomi img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.omoniye img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.n-e{
+    box-shadow: 5px 0px 10px #d9d9d9;
+    padding: 50px 30px;
+    height: 700px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.n-e h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-event{
+    margin-left: 45%;
+    background-color: rgb(1, 175, 233);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+.view-event:hover{
+    background-color: rgb(72, 128, 128);
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(28, 28, 55);
+    color: white;
+    padding: 30px 80px;
+}
+
+footer p{
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+footer h4{
+    margin-bottom: 10px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.last-p{
+    text-align: center;
+    margin-top: 30px;
+}
